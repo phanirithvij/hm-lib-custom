@@ -1,0 +1,48 @@
+{
+  "nodes": {
+    "home-manager": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1751982848,
+        "narHash": "sha256-bxYo+DeH7sfL4VrBlfQG+OYzB64S9OGNwe99gH9ZdRE=",
+        "ref": "refs/heads/tmp-lib-arg",
+        "rev": "c136aa3c39cdbdadd45156ad0e3fb6ea11d13962",
+        "revCount": 5027,
+        "type": "git",
+        "url": "file:///shed/Projects/nixer/%21core/home-manager"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:///shed/Projects/nixer/%21core/home-manager"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1751792365,
+        "narHash": "sha256-J1kI6oAj25IG4EdVlg2hQz8NZTBNYvIS0l4wpr9KcUo=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "1fd8bada0b6117e6c7eb54aad5813023eed37ccb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "home-manager": "home-manager",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
